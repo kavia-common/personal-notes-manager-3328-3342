@@ -1,13 +1,17 @@
 /* CSS Variables for Theme Management */
 :root {
-  /* Light theme colors */
-  --bg-primary: #ffffff;
-  --bg-secondary: #f8f9fa;
-  --text-primary: #282c34;
-  --text-secondary: #61dafb;
-  --border-color: #e9ecef;
-  --button-bg: #007bff;
-  --button-text: #ffffff;
+  /* KAVIA palette for minimal note app */
+  --primary: #2563eb;
+  --accent: #f59e42;
+  --secondary: #6b7280;
+
+  --bg-primary: #fff;
+  --bg-secondary: #fafbfe;
+  --text-primary: #23272f;
+  --text-secondary: var(--secondary);
+  --border-color: #e3e7f0;
+  --button-bg: var(--primary);
+  --button-text: #fff;
 }
 
 [data-theme="dark"] {
